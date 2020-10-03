@@ -26,6 +26,11 @@ a:hover {
     transition: all 0.4s;
 }
 
+.product-page a:hover {
+    border: none;
+    padding-bottom: 0px;
+}
+
 h2, h3 {
     font-weight: normal;
 }
@@ -58,14 +63,8 @@ header {
 }
 
 .logo {
-    cursor: pointer;
     margin-right: 80px;
 
-}
-
-.nav-links {
-    /* padding-left: 0px; */
-    /* width: 50%; */
 }
 
 .nav-links-right {
@@ -81,6 +80,15 @@ header {
 
 /********** header section **********/
 /********** hero-banner section **********/
+
+.about-banner-nashi-watch {
+    background: url(../images/watch-banners-nashi-1400x500.jpg);
+}
+
+.about-banner-kazu-watch {
+    background: url(../images/watch-banners-kazu-1400x500.jpg);
+}
+
 .about-banner-contact {
     background: url(../images/watch2-5-1400x500.jpg);
 }
@@ -95,6 +103,34 @@ header {
 
 .about-banner-about {
     background: url(../images/about-banner-1400x500.jpg);
+}
+
+.about-banner-kazu-midnight {
+    background: url(../images/Watches3-1400x500.jpg)
+}
+
+.about-banner-kazu-pearl {
+    background: url(../images/Watches20-1400x500.jpg)
+}
+
+.about-banner-kazu-heritage-navy {
+    background: url(../images/Watches9-1400x500.jpg)
+}
+
+.about-banner-nashi-pearl {
+    background: url(../images/Watches4-1400x500.jpg)
+}
+
+.about-banner-nashi-emerald {
+    background: url(../images/Watches14-1400x500.jpg)
+}
+
+.about-banner-nashi-heritage-pearl {
+    background: url(../images/watch-nashi-1-1400x500.jpg)
+}
+
+.about-banner-nashi-pearl-gold {
+    background: url(../images/watch-nashi-2-1400x500.jpg);
 }
 
 
@@ -136,7 +172,6 @@ header {
 
 .main-products-wrapper {
     display: flex;
-    align-items: space-around;
     background-color: #1a293f;
     padding: 40px 0px;
 }
@@ -283,10 +318,6 @@ header {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
-  
-    .card {
-      flex: 0 0 auto;
-    }
   }
 
 .card {
@@ -466,6 +497,13 @@ header {
     font-size: 80%;
 }
 
+.footer-nav-links {
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 25px;
+}
+
 .footer-col {
     display: flex;
     flex-direction: column;
@@ -518,7 +556,7 @@ header {
 
 @media screen and (max-width: 1449px) {
     .main-products {
-        margin-bottom: 0px 50px 30px;
+        margin: 0px auto 30px;
     }
 
     .card-left {
